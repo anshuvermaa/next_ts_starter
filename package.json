@@ -1,12 +1,21 @@
 {
   "name": "next_typescript",
+  "author": "ANSHU VERMA",
+  "description": "A tutorial and template for creating a production-ready fullstack Next.js application",
   "version": "0.1.0",
   "private": true,
+  "license" : "MIT",
+  "homepage": "YOUR_GIT_REPO_URL",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "yarn": ">=1.22.0",
+    "npm": ">=1.22.19"
   },
   "dependencies": {
     "next": "13.3.1",
